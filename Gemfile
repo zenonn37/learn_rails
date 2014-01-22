@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+ruby '2.1.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -26,6 +27,23 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'therubyracer', platforms: :ruby
+
+#lear_rails
+gem 'activerecord-tableless'
+gem 'compass-rails', '~> 1.1.2'
+gem 'figaro'
+gem 'gibbon'
+gem 'google_drive'
+gem 'high_voltage'
+gem 'simple_form'
+gem 'zurb-foundation', '~> 4.3.2'
+group :development do
+gem 'better_errors'
+gem 'quiet_assets'
+gem 'rails_layout'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
